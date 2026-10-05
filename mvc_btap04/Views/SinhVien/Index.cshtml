@@ -1,0 +1,40 @@
+﻿@model IEnumerable<mvc_btap04.Models.SinhVien>
+
+@{
+    ViewData["Title"] = "Danh Sách Sinh Viên";
+}
+
+<h2 class="my-4">Danh Sách Sinh Viên (Database First)</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm Sinh Viên Mới</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Mã SV</th>
+            <th>Họ và Tên</th>
+            <th>Ngày Sinh</th>
+            <th>Email</th>
+            <th>Lớp Học</th>
+            <th>Thao Tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaSv</td>
+                <td>@item.HoTen</td>
+                <td>@item.NgaySinh.ToString("dd/MM/yyyy")</td>
+                <td>@item.Email</td>
+                <td>@item.LopHoc</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

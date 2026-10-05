@@ -1,0 +1,31 @@
+﻿@model mvc_btap04.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Xóa Sinh Viên";
+}
+
+<h2 class="my-4">Xác Nhận Xóa</h2>
+
+<h3>Bạn có chắc chắn muốn xóa sinh viên này?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">Mã Sinh Viên</dt>
+        <dd class="col-sm-9">@Model.MaSv</dd>
+
+        <dt class="col-sm-3">Họ và Tên</dt>
+        <dd class="col-sm-9">@Model.HoTen</dd>
+
+        <dt class="col-sm-3">Ngày Sinh</dt>
+        <dd class="col-sm-9">@Model.NgaySinh.ToString("dd/MM/yyyy")</dd>
+
+        <dt class="col-sm-3">Lớp Học</dt>
+        <dd class="col-sm-9">@Model.LopHoc</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>
