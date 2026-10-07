@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mvc_btap04")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43f00e35397e9388f1edaa35e553886a7c23f38b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("mvc_btap04")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mvc_btap04")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

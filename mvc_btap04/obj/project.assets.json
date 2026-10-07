@@ -3151,11 +3151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Ass_MVC_04\\mvc_4\\mvc_btap04\\mvc_btap04.csproj",
+      "projectUniqueName": "D:\\myCODE\\CNLT_Web\\Ass\\Ass_MVC\\mvc_btap04\\mvc_btap04.csproj",
       "projectName": "mvc_btap04",
-      "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Ass_MVC_04\\mvc_4\\mvc_btap04\\mvc_btap04.csproj",
+      "projectPath": "D:\\myCODE\\CNLT_Web\\Ass\\Ass_MVC\\mvc_btap04\\mvc_btap04.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Ass_MVC_04\\mvc_4\\mvc_btap04\\obj\\",
+      "outputPath": "D:\\myCODE\\CNLT_Web\\Ass\\Ass_MVC\\mvc_btap04\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

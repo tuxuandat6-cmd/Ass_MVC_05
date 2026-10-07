@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using mvc_btap04.Middlewares;
 using mvc_btap04.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,7 +23,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapStaticAssets();
-app.UseMiddleware<RequestLoggingMiddleware>();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=SinhVien}/{action=Index}/{id?}")
